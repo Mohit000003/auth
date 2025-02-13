@@ -1,4 +1,7 @@
 
+
+
+
 # VCS Authentication POC
 
 | *Author* | *Created on* | *Version* | *Last updated by*|*Internal Reviewer* |*Reviewer L0* |*Reviewer L1* |*Reviewer L2* |
@@ -13,9 +16,9 @@
 - [Pre-Requisites for Git Configuration](#pre-requisites-for-git-configuration)  
 - [Step-by-Step Setup Guide](#step-by-step-setup-guide)  
 - [Best Practices for Git Authentication](#best-practices-for-git-authentication) 
-- [Conclusion and Final Thoughts](#conclusion-and-final-thoughts)  
+- [Conclusion](#conclusion)  
 - [Contact Information](#contact-information)  
-- [References and Resources](#references-and-resources)  
+- [References](#references)  
 
 
 
@@ -89,7 +92,7 @@ In Git, authentication ensures that only authorized users can access repositorie
 
  1. **Open a Terminal (Command Prompt):-**
      
-  - Open the terminal on your system.
+    - Open the terminal on your system.
 
  2. **Set up your Git username and email:-**
    
@@ -104,7 +107,7 @@ In Git, authentication ensures that only authorized users can access repositorie
     ``` bash
     git config --list
     ```
-- This command will show you the settings to confirm that your username and email have been configured correctly.
+  - This command will show you the settings to confirm that your username and email have been configured correctly.
 
   
  4. **Clone the Repository using HTTPS and use Personal Access Token:-**
@@ -119,7 +122,7 @@ In Git, authentication ensures that only authorized users can access repositorie
 5. **Push changes to the repository:-**
 
 
- - After making changes to your repository, use git push to push the changes to the remote repository.
+  - After making changes to your repository, use git push to push  the changes to the remote repository.
 
  ``` bash
  git push origin main
@@ -132,20 +135,24 @@ In Git, authentication ensures that only authorized users can access repositorie
 ## Best Practices for Git Authentication
 
 
-**Use SSH Keys for Authentication:-**
+- **Use SSH Keys for Authentication:-**
 SSH keys provide a more secure and efficient method of authentication compared to passwords. They are harder to compromise and eliminate the need to remember passwords.
 
-**Enable Two-Factor Authentication (2FA):-**
+- **Enable Two-Factor Authentication (2FA):-**
 Adding an extra layer of security with 2FA ensures that even if your password is compromised, the attacker still can't access your Git repository without the second authentication factor.
 
-**Use Personal Access Tokens (PATs) for HTTPS:-**
+- **Use Personal Access Tokens (PATs) for HTTPS:-**
 PATs are a safer alternative to using passwords for HTTPS Git operations. They are more secure, can be scoped to specific permissions, and can be revoked if compromised.
 
-**Rotate SSH Keys and Tokens Regularly-**
+- **Rotate SSH Keys and Tokens Regularly-**
 Regularly rotating your SSH keys and tokens helps mitigate the risk of compromise, especially when an employee leaves or you suspect a key may have been exposed.
 
-**Limit Access with Least Privilege:-**
+- **Limit Access with Least Privilege:-**
 Only grant users the minimal level of access they need to perform their tasks. This reduces the risk of unintended or malicious changes to your repositories.
+
+
+## Conclusion 
+Git, a popular version control system (VCS), supports various authentication methods for secure repository access. Common methods include SSH keys, HTTPS with username and password, and personal access tokens. These ensure secure and authenticated interactions, maintaining code integrity and enabling efficient collaboration across development teams.
 
 
 ## Contact Information
