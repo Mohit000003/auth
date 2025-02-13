@@ -35,3 +35,4 @@ In Git, authentication ensures that only authorized users can access repositorie
 | 1  | 	SSH Keys |Uses secure key pairs to authenticate users without needing a password. |
 | 2.  |   Personal Access Tokens (PATs) |  Provides a secure token for access with specific permissions.|
 | 3.  |  	OAuth Tokens  |  Allows login using third-party services for easier authentication.|
+|
