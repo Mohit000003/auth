@@ -29,10 +29,9 @@ Authentication verifies the identity of a user or system, ensuring that only aut
 ## Understanding Git authentication
 In Git, authentication ensures that only authorized users can access repositories and make changes to them. The following methods are commonly used for Git authentication:
 
-| No. | Methord   | Description                                                                                                     |
-|-----|-----------------------|-----------------------------------------------------------------------------------------------------------------|
-| 
-| 1  | 	SSH Keys |Uses secure key pairs to authenticate users without needing a password. |
-| 2.  |   Personal Access Tokens (PATs) |  Provides a secure token for access with specific permissions.|
-| 3.  |  	OAuth Tokens  |  Allows login using third-party services for easier authentication.|
-|
+| No. | Method                | Description                                                               |
+| --- | --------------------- | ------------------------------------------------------------------------- |
+| 1   | SSH Keys              | Uses secure key pairs to authenticate users without needing a password.  |
+| 2   | Personal Access Tokens (PATs) | Provides a secure token for access with specific permissions.           |
+| 3   | OAuth Tokens          | Allows login using third-party services for easier authentication.       |
+
