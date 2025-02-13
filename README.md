@@ -13,7 +13,7 @@
 - [Introduction](#introduction)  
 - [Understanding Git Authentication](#understanding-git-authentication)  
 - [Pre-Requisites for Git Configuration](#pre-requisites-for-git-configuration)  
-- [Step-by-Step Setup Guide](#setting-up-git-authentication)  
+- [Step-by-Step Setup Guide](#step-by-step-setup-guide)  
 - [Best Practices for Secure Git Usage](#best-practices-for-secure-git-usage)  
 - [Conclusion and Final Thoughts](#conclusion-and-final-thoughts)  
 - [Contact Information](#contact-information)  
